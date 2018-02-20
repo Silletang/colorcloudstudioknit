@@ -1,0 +1,241 @@
+/*GLOBAL*/
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden; 
+    line-height: 30px;
+    text-align: justify;
+} 
+
+.video1 {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.centertekst {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 14%;
+    left: 35%;
+    font-size: 90px;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 30%;
+}
+
+.bagom {
+    margin: 10% 12% 1.2% 12%;
+    font-size: 40px; 
+}
+
+.tekst {
+    margin: 1% 12% 2% 12%; 
+    font-size: 20px;
+}
+
+
+.citat {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.afcitat {
+    margin-top: -166px;
+    margin-left: 240px;
+}
+.teksttilcitat {
+    margin: 4% 12% 2% 12%;
+    font-size: 20px;
+}
+
+.collage {
+    width: 100%;
+    margin-top: 2%;   
+}
+
+.uld {
+    font-size: 40px;
+    margin-left: 12%;
+    margin-bottom: -3%;
+    margin-top: 6%;
+}
+
+.ged {
+    margin: 4% 12% 2% 12%;
+    font-size: 18px;
+    margin-bottom: 5%;
+}
+
+.geder {
+    width: 65.1%;
+    margin-left: 17.5%;
+    margin-top: -3%;
+}
+
+.garn {
+    width: 80%;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+.galleri {
+    width: 80%;
+    margin-top: 4%;
+}
+
+.billede1 {
+    width: 40%;
+    height: 280px;
+    display: inline-block;
+    margin-left: 22%;
+}
+
+.billede2 {
+    width: 40%;
+    margin-left: 22%;
+    height: 280px;
+}
+
+#video {
+    width: 40%;
+    float: right;
+    margin-top: -50.2%;
+    margin-right: -2.9%;
+}
+ 
+.billede3 {
+    width: 40%;
+    height: 280px;
+    float: right;
+    margin-top: -25.1%;
+    margin-right: -2.9%;
+}
+
+.kob {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    line-height: 100%;
+}
+
+/* HOVER EFFEKT */
+.container-proces {
+    position: relative;
+    width: 40%;
+    margin-left: 32%;
+}
+
+.strikproces, .strikproces4 {
+    opacity: 1;
+    width: 100%;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.midt {
+    transition:  .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container-proces:hover .strikproces {
+    opacity: 0.3;
+}
+
+.container-proces:hover .midt {
+    opacity: 1;
+}
+
+.tekstimidt {
+    background-color: rgba(255, 230, 128, 0.8);
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;  
+}
+
+/* HOVER EFFEKT SLUT */ 
+
+.et, .to, .tre, .fire, .fem {
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+
+.strikproces1 {
+    margin-left: 7%;
+}
+
+.strikproces2 {
+    margin-top: 6%;
+}
+
+.strikproces3 {
+    margin-top: 16%;
+}
+
+.strikproces4 {
+    width: 60%;
+    margin-top: 10%;
+    margin-bottom: 8%;
+}
+
+#videomedlyd {
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 24.8%;
+    margin-bottom: 6%;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*mobiler*/
+@media (max-width: 767px) {
+    
+    
+    
+}
+
+
+/*tablets*/
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+    
+    
+}
+
+
+/*desktop*/
+@media (min-width: 1024px) {
+    
+    
+    
+}
